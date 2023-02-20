@@ -1,0 +1,37 @@
+.cartelera > div > div{
+        display: flex;
+        height: 200px;
+        align-items: center;
+      
+}
+.movies img{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.movies div{
+    
+    width: 300px;
+    background-color: #C7C7C7;
+    border-radius: 8px;
+}
+#antman{
+    margin: 44px 14px -24px 24px;
+}
+.margin-especial{
+    margin: 44px 14px -24px ;
+}
+
+.movies div h1,
+.movies div p{
+    text-align: center;
+}
+#title-movies{
+    margin-bottom: 60px;
+}
+
