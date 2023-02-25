@@ -21,10 +21,10 @@
     border-radius: 8px;
 }
 #antman{
-    margin: 44px 14px -24px 24px;
+    margin: 44px 14px -10% 24px;
 }
 .margin-especial{
-    margin: 44px 14px -24px ;
+    margin: 44px 14px -10% 4px ;
 }
 
 .movies div h1,
@@ -35,11 +35,31 @@
     margin-bottom: 60px;
 }
 .title{
-    display: flex;
     text-align: center;
     background-color: #78725C;
     font-size: 24px;
-    height: 50px;
-    align-items: center;
+    height: 80px;
+    border-radius: 8px;
 }
 
+.title h1{    
+    padding: 12px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    background-color: #78725C;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    margin-left: 27%;
+}
